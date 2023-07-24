@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Choose your favorite Adventure Destination</p>
+
+<label for="enchanted">
+  <input type="radio" id="enchanted" name="destination" value="forest">
+  Enchanted Forest
+</label> 
+<br>
+
+<label for="haunted">
+  <input type="radio" id="haunted" name="destination" value="woods">
+  Haunted Woods
+</label> 
+<br>
+
+<label for="crystal">
+  <input type="radio" id="crystal" name="destination" value="lake">
+  Crystal Lake
+</label>
+
+</body>
+</html>	
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Adventure Game Form</h2>
+
+<!-- CHECKBOX -->
+<p>Choose all the prizes you would like the heroes to find:</p>
+<input type="checkbox" id="prize1" name="prize" value="beans">
+<label for="prize1">Magical Bean</label><br>
+<input type="checkbox" id="prize2" name="prize" value="caterpillars">
+<label for="prize2">Glow in the dark caterpillars</label><br>
+<input type="checkbox" id="prize3" name="prize" value="card">
+<label for="prize3">Amazon giftcard</label><br><br>
+
+<!-- TEXTAREA -->
+<label for="suggestion">Adventure Suggestions:</label><br>
+<textarea id="suggestion" name="suggestion" rows="10" cols="55">
+</textarea>
+
+</body>
+</html>

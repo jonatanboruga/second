@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <form action="/collectionform.html">
+        <!-- Your form fields go here -->
+
+        <input type="submit" value="Submit Adventure Form">
+    </form>
+</body>
+</html>

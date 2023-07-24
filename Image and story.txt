@@ -1,0 +1,73 @@
+<!-- declaration tag -->
+<! doctype html>
+<!-- head tag and title tag-->
+<head>
+    <title> Jonatan </title>
+
+<!-- style tag -->
+    <style>
+        .body {
+        border: 12px outset lightgreen;
+        background-color:lightgrey;
+        text-align: center;
+        }
+        .funbutton {
+        background-color: lightgreen;
+    border: none;
+    color: black;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+        }
+    </style>
+</head>
+
+<!--body tag-->
+<body class="body">
+</body>
+<!-- div tag --> <!-- img tag --> <!--br tag-->
+<div>
+    <img src="https://images.unsplash.com/photo-1580100586938-02822d99c4a8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFnZ29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Rosie Lagoon" width="1390" height="800">
+
+
+    <!--<br> <img src="/images/rosie_distance.jpg" alt="Rosie looking off into the distance" width="100" height="100">
+    </br>-->
+
+<!--header tag and p tag--> <!--span tag-->
+
+    <h1 style="
+    color: grey; 
+    text-align: center;
+    background-color: lightgreen;
+    font-size: 8vw;
+    font-family: courier;
+">
+    Once Upon a Time...
+</h1><br>
+        <p> Cocoi the duck lived in a <span style="color:green; font-weight:bold">beautiful </span><span style="color:blue; font-weight:bold">lagoon. </span></p>
+    <h3> One day he found his friend Rosie </h3>
+    <h2> hould Cocoi walk over to see what Rosie is looking at OR ask Rosie? <h2>
+
+<!--button tag-->
+
+    <button class="funbutton" type="button" onclick="alert('Let's walk over to Rosie!)">Walk over</button>
+    <button class="funbutton" type="button" onclick="alert('Hey Rosie! What are you looking at?')">Ask Rosie</button>
+<!-- a href -->
+<br>
+<a href="https://veroskills.com/">absolute</a>
+<br>
+<a href="/adventure-game/explore.html">relative</a> <br>
+<a href="#">Place holder</a>
+
+</div>
+<!-- Close -->
+</html>
+
+---------------------------------------------------------------------------------------------------------------------
+
+
